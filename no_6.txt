@@ -1,0 +1,43 @@
+                                      Start
+                                        |
+                                        |
+                                        v
+                          [Kendaraan masuk SPBU]
+                                        |
+                                        |
+                                        v
+        [Cek jenis kendaraan dan jenis bahan bakar]
+        /                   |                      \
+       /                    |                       \
+      /                     |                        \
+     v                      v                         v
+[roda 2, pertalite] [roda 2, pertamax] [roda 2, pertamax plus]
+     |                      |                        |
+     |                      |                        |
+     |                      |                        |
+     v                      v                        v
+[Antri di Terminal 1]  [Antri di Terminal 1]   [Antri di Terminal]
+     |                      |                        |
+     v                      v                        v
+[roda 4, pertalite] [roda 4, pertamax] [roda 4, pertamax plus]
+     |                      |                        |
+     |                      |                        |
+     |                      |                        |
+     v                      v                        v
+[Antri di Terminal 2]  [Antri di Terminal 2]   [Antri di Terminal]
+     |                      |                        |
+     v                      v                        v
+                    [Pelayanan]
+                        |
+                        |
+                        v
+                      End
+
+
+Penjelasan:
+
+1.Kendaraan memasuki SPBU.
+2.Sistem akan memeriksa jenis kendaraan (roda 2 atau roda 4) dan jenis bahan bakar yang diminta (pertalite, pertamax, atau pertamax plus).
+3.Berdasarkan jenis kendaraan dan jenis bahan bakar, kendaraan akan diarahkan untuk antri di salah satu dari lima terminal yang tersedia.
+4.Setelah antri di terminal, kendaraan akan dilayani ketika gilirannya tiba.
+5.Setelah selesai dilayani, kendaraan keluar dari SPBU.

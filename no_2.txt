@@ -1,0 +1,13 @@
+select b.Tanggal,a.NIM, a.Nama from tb_person as a join tb_date as b 
+on a.NIM = b.NIM where b.Tanggal in ('15 Juni 2020','17 Juni 2020')
+
+
+
+SELECT Nama, NIM, COUNT(*) AS JumlahKehadiran
+FROM (
+    SELECT DISTINCT NIM, Nama
+    FROM tb_person
+) AS T
+INNER JOIN tb_date AS T2 ON T.NIM = T2.NIM
+GROUP BY Nama, NIM
+ORDER BY NIM;

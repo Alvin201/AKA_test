@@ -1,0 +1,65 @@
+                                      Start
+                                        |
+                                        |
+                                        v
+                              [User Login/Register]
+                                        |
+                                        |
+                                        v
+                           [User Masuk ke Dashboard]
+                                        |
+                                        |
+                                        v
+                      [User pilih "List produk"]
+                                        |
+                                        |
+                                        v
+                    [User Mengisi Informasi Barang]
+                                        |
+                                        |
+                                        v
+               			[Submit ke System]
+                                        |
+                                        |
+                                        v
+                            	[Tampil barang]
+                                        |
+                                        |
+                                        v
+                           [User Pilih "Produk lelang"]
+                                        |
+                                        |
+                                        v
+                       [Barang yang Dilelang Ditampilkan]
+                                        |
+                                        |
+                                        v
+                   [User Melakukan Bidding / Menawar]
+                                        |
+                                        |
+                                        v
+                         [Sistem Memproses Penawaran]
+                                        |
+                                        |
+                                        v
+                          [Update Status Penawaran]
+                                        |
+                                        |
+                                        v
+                                [End / Repeat]
+
+
+Penjelasan:
+
+1.User login atau mendaftar sebagai anggota baru.
+2.Setelah login, user akan masuk ke dashboard.
+3.User memilih opsi "Product Listing" untuk memasukkan barang ke dalam sistem.
+4.User mengisi informasi tentang barang yang ingin dijual.
+5.Informasi barang disimpan ke dalam sistem dan ditampilkan kepada pengguna.
+6.Pengguna kemudian memilih opsi "Product Auction" untuk melihat barang-barang yang sedang dilelang.
+7.Barang yang sedang dilelang ditampilkan kepada pengguna.
+8.Pengguna dapat melakukan bidding atau menawar untuk barang yang diinginkan.
+9.Sistem memproses penawaran dari pengguna.
+10.Status penawaran diperbarui dan pengguna dapat melihat hasilnya.
+11.Proses berakhir dan pengguna dapat kembali ke langkah awal atau melakukan aktivitas lain dalam sistem.
+
